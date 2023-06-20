@@ -1,56 +1,64 @@
-﻿//=======================
-//Coperight(c)  Coalition  of Good  -  Hearted  Enginners 
-// Free To Use Comfort and Peace 
-//======================
+﻿
+var aDotNetClient = new ADotNetClient();
 
-
-using ADotNet.Clients;
-using ADotNet.Models.Pipelines.GithubPipelines.DotNets;
-using ADotNet.Models.Pipelines.GithubPipelines.DotNets.Tasks;
-using ADotNet.Models.Pipelines.GithubPipelines.DotNets.Tasks.SetupDotNetTaskV1s;
-
-var githubPipline = new GithubPipeline
+var githubPipeline = new GithubPipeline
 {
-    Name = "Sheenam Build Pipepiline  ",
+    Name = "Github",
+
     OnEvents = new Events
     {
-        PullRequest = new PullRequestEvent
+        Push = new PushEvent
         {
             Branches = new string[] { "master" }
         },
-        Push = new PushEvent {
+
+        PullRequest = new PullRequestEvent
+        {
             Branches = new string[] { "master" }
         }
     },
+
     Jobs = new Jobs
     {
         Build = new BuildJob
         {
-            RunsOn = BuildMachines.Windows2022,
-            Steps = new List<GithubTask> {
-                new CheckoutTaskV2
-                {
-                    Name = "Cheking Out Code "
-                },
-                new SetupDotNetTaskV1
-                {
-                    Name = "Setting Up Dotnet ",
-                    TargetDotNetVersion = new TargetDotNetVersion
-                    {
-                        DotNetVersion = "7.0.203"
-                    }
-                },
-                new RestoreTask {
-                    Name = "Restoring Nuget Packages "
+            RunsOn = BuildMachines.Windows2019,
 
-                },
-                new RestoreTask
-                {
-                    Name = "Runing Tests "
-                }
-            }
+            Steps = new List<GithubTask>
+              {
+                  new CheckoutTaskV2
+                  {
+                      Name = "Check out"
+                  },
+
+                  new SetupDotNetTaskV1
+                  {
+                      Name = "Setup .Net",
+
+                      TargetDotNetVersion = new TargetDotNetVersion
+                      {
+                          DotNetVersion = "6.0.100-rc.1.21463.6",
+                          IncludePrerelease = true
+                      }
+                  },
+
+                  new RestoreTask
+                  {
+                      Name = "Restore"
+                  },
+
+                  new DotNetBuildTask
+                  {
+                      Name = "Build"
+                  },
+
+                  new TestTask
+                  {
+                      Name = "Test"
+                  }
+              }
         }
-        }
-    };
-var client = new  ADotNetClient();
-client.SerializeAndWriteToFile(adoPipeline: githubPipline, path: "../../../../.github/workflows/dotnet.yml");
+    }
+};
+
+aDotNetClient.SerializeAndWriteToFile(githubPipeline, "../../../../.github/workflows/dotnet.yml");
