@@ -5,7 +5,7 @@ using System.Drawing;
 
 namespace Sheenam.Api.Brokers.Storages
 {
-    public partial class   StorageBroker : EFxceptionsContext
+    public partial class   StorageBroker : EFxceptionsContext 
 
     {
         private readonly IConfiguration configuration;
