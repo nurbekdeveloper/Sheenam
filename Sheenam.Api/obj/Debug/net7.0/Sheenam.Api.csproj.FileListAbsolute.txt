@@ -1,0 +1,7 @@
+C:\Users\Nurbek\Desktop\Sheenam\Sheenam.Api\obj\Debug\net7.0\Sheenam.Api.csproj.AssemblyReference.cache
+C:\Users\Nurbek\Desktop\Sheenam\Sheenam.Api\obj\Debug\net7.0\Sheenam.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nurbek\Desktop\Sheenam\Sheenam.Api\obj\Debug\net7.0\Sheenam.Api.AssemblyInfoInputs.cache
+C:\Users\Nurbek\Desktop\Sheenam\Sheenam.Api\obj\Debug\net7.0\Sheenam.Api.AssemblyInfo.cs
+C:\Users\Nurbek\Desktop\Sheenam\Sheenam.Api\obj\Debug\net7.0\Sheenam.Api.csproj.CoreCompileInputs.cache
+C:\Users\Nurbek\Desktop\Sheenam\Sheenam.Api\obj\Debug\net7.0\Sheenam.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Nurbek\Desktop\Sheenam\Sheenam.Api\obj\Debug\net7.0\Sheenam.Api.MvcApplicationPartsAssemblyInfo.cache

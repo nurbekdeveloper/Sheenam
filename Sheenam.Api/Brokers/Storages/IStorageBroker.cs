@@ -1,0 +1,16 @@
+﻿//=======================
+//Coperight(c)  Coalition  of Good  -  Hearted  Enginners 
+// Free To Use Comfort and Peace 
+//======================
+
+
+using Sheenam.Api.Models.Foundations.Guests;
+using System.Threading.Tasks;
+
+namespace Sheenam.Api.Brokers.Storages
+{
+    public  partial  interface IStorageBroker
+    {
+    
+    }
+}
