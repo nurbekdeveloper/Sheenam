@@ -12,7 +12,7 @@ namespace Sheenam.Api.Brokers.Storages
 {
     public partial  interface IStorageBroker
     {
-        ValueTask<Guest> InsertGuestsAsyns(Guest guest);
+        ValueTask<Guest> InsertGuestAsync (Guest guest); 
         
 
 
