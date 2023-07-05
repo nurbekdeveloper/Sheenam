@@ -1,13 +1,11 @@
 ﻿using EFxceptions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Sheenam.Api.Models.Foundations.Guests;
 using System.Drawing;
-using System.Threading.Tasks;
 
 namespace Sheenam.Api.Brokers.Storages
 {
-    public partial class StorageBroker : EFxceptionsContext, IStorageBroker
+    public partial class   StorageBroker : EFxceptionsContext , IStorageBroker
 
     {
         private readonly IConfiguration configuration;
@@ -24,7 +22,5 @@ namespace Sheenam.Api.Brokers.Storages
             optionsBuilder.UseSqlServer(connectionString);
         }
         public override void Dispose() {}
-
-       
     }
 }
