@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.api.unit.Tests\\Sheenam.api.unit.Tests.csproj": {}
+    "C:\\Users\\Nurbek\\Desktop\\Learn dotnet harder\\Sheenam\\Sheenam.api.unit.Tests\\Sheenam.api.unit.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.api.unit.Tests\\Sheenam.api.unit.Tests.csproj": {
+    "C:\\Users\\Nurbek\\Desktop\\Learn dotnet harder\\Sheenam\\Sheenam.api.unit.Tests\\Sheenam.api.unit.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.api.unit.Tests\\Sheenam.api.unit.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\Nurbek\\Desktop\\Learn dotnet harder\\Sheenam\\Sheenam.api.unit.Tests\\Sheenam.api.unit.Tests.csproj",
         "projectName": "Sheenam.api.unit.Tests",
-        "projectPath": "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.api.unit.Tests\\Sheenam.api.unit.Tests.csproj",
+        "projectPath": "C:\\Users\\Nurbek\\Desktop\\Learn dotnet harder\\Sheenam\\Sheenam.api.unit.Tests\\Sheenam.api.unit.Tests.csproj",
         "packagesPath": "C:\\Users\\Nurbek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.api.unit.Tests\\obj\\",
+        "outputPath": "C:\\Users\\Nurbek\\Desktop\\Learn dotnet harder\\Sheenam\\Sheenam.api.unit.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nurbek\\AppData\\Roaming\\NuGet\\NuGet.Config",
