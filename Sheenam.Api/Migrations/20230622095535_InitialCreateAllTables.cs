@@ -1,4 +1,16 @@
-﻿using System;
+﻿//=======================
+//Coperight(c)  Coalition  of Good  -  Hearted  Enginners 
+// Free To Use To Find  Comfort and Peace 
+//======================
+
+
+
+
+
+
+
+
+using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable

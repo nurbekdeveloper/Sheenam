@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LxvGdMpgQqsfC6w0eJJM3WjYaJmJJNVPGAKA5ThQGCm9fR3/J0JWYkRBOyrmbDMsZQL3aT8fBLZlT9CDlg4cYQ==",
+  "dgSpecHash": "Ma5CuUBPqPWZiBb69GJg14yCGRs7qXUNmWMQi95ODRr0GiJjW46jXBuyRFuA7q5N31QlJ9PeT5nPtlVi+FwOHw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nurbek\\Desktop\\Learn dotnet harder\\Sheenam\\Sheenam.Api\\Sheenam.Api.csproj",
+  "projectFilePath": "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api\\Sheenam.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nurbek\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Nurbek\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

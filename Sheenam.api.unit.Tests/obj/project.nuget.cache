@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g1H6UJ8dxsYlK8kGmxrA0UQkovW9tS0LW03S5tpIbALY9x+pCbM+9kQp4pC4CA2Jo+D4pcWMEXsTzQypIZ7DnQ==",
+  "dgSpecHash": "dBV8fcyri31lAlmNdK+ZCr2pc7uJ35cn3NbpKvd4ngHEQ1Tm5DMCIXJnCKOYpj9YaZIenAk3dRdhqUhrrtm9bw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nurbek\\Desktop\\Learn dotnet harder\\Sheenam\\Sheenam.api.unit.Tests\\Sheenam.api.unit.Tests.csproj",
+  "projectFilePath": "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.api.unit.Tests\\Sheenam.api.unit.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nurbek\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\Nurbek\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",

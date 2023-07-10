@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nurbek\\Desktop\\Learn dotnet harder\\Sheenam\\Sheenam.Api\\Sheenam.Api.csproj": {}
+    "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api\\Sheenam.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nurbek\\Desktop\\Learn dotnet harder\\Sheenam\\Sheenam.Api\\Sheenam.Api.csproj": {
+    "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api\\Sheenam.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nurbek\\Desktop\\Learn dotnet harder\\Sheenam\\Sheenam.Api\\Sheenam.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api\\Sheenam.Api.csproj",
         "projectName": "Sheenam.Api",
-        "projectPath": "C:\\Users\\Nurbek\\Desktop\\Learn dotnet harder\\Sheenam\\Sheenam.Api\\Sheenam.Api.csproj",
+        "projectPath": "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api\\Sheenam.Api.csproj",
         "packagesPath": "C:\\Users\\Nurbek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nurbek\\Desktop\\Learn dotnet harder\\Sheenam\\Sheenam.Api\\obj\\",
+        "outputPath": "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nurbek\\AppData\\Roaming\\NuGet\\NuGet.Config",
