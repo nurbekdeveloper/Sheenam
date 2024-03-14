@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api\\Sheenam.Api.csproj": {}
+    "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api.Unit.Tests\\Sheenam.Api.Unit.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api\\Sheenam.Api.csproj": {
+    "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api.Unit.Tests\\Sheenam.Api.Unit.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api\\Sheenam.Api.csproj",
-        "projectName": "Sheenam.Api",
-        "projectPath": "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api\\Sheenam.Api.csproj",
+        "projectUniqueName": "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api.Unit.Tests\\Sheenam.Api.Unit.Tests.csproj",
+        "projectName": "Sheenam.Api.Unit.Tests",
+        "projectPath": "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api.Unit.Tests\\Sheenam.Api.Unit.Tests.csproj",
         "packagesPath": "C:\\Users\\Nurbek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api\\obj\\",
+        "outputPath": "C:\\Users\\Nurbek\\Desktop\\Sheenam\\Sheenam.Api.Unit.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,13 +45,25 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "RESTFulSense": {
+            "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[2.17.0, )"
+              "version": "[16.9.4, )"
             },
-            "Swashbuckle.AspNetCore": {
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
             }
           },
           "imports": [
@@ -66,9 +78,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
