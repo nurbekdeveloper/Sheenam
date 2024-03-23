@@ -5,7 +5,9 @@ VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sheenam.Api", "Sheenam.Api\Sheenam.Api.csproj", "{B671899D-EC92-49EE-AC6B-FC604B3114B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sheenam.Api.Unit.Tests", "Sheenam.Api.Unit.Tests\Sheenam.Api.Unit.Tests.csproj", "{4DD9FAEC-2597-408F-9FAF-1F8BE3599587}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sheenam.Api.Unit.Tests", "Sheenam.Api.Unit.Tests\Sheenam.Api.Unit.Tests.csproj", "{4DD9FAEC-2597-408F-9FAF-1F8BE3599587}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sheenam.Api.Build.init", "Sheenam.Api.Build.init\Sheenam.Api.Build.init.csproj", "{41B4253A-F3A8-4AD6-AE57-A6F1C0B57159}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{4DD9FAEC-2597-408F-9FAF-1F8BE3599587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DD9FAEC-2597-408F-9FAF-1F8BE3599587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DD9FAEC-2597-408F-9FAF-1F8BE3599587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41B4253A-F3A8-4AD6-AE57-A6F1C0B57159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41B4253A-F3A8-4AD6-AE57-A6F1C0B57159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41B4253A-F3A8-4AD6-AE57-A6F1C0B57159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41B4253A-F3A8-4AD6-AE57-A6F1C0B57159}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

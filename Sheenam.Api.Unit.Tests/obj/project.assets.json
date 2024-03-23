@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net7.0": {
       "coverlet.collector/3.0.2": {
         "type": "package",
         "build": {
@@ -6041,7 +6041,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net7.0": [
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "coverlet.collector >= 3.0.2",
       "xunit >= 2.4.1",
@@ -6070,7 +6070,7 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net7.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -6078,8 +6078,8 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "projectReferences": {}
         }
       },
@@ -6090,8 +6090,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net7.0": {
+        "targetAlias": "net7.0",
         "dependencies": {
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
